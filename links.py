@@ -1,4 +1,10 @@
 def getlink(app, platform):
+    """
+    This function takes an input of the app name and returns the app url based on the 
+    platform (iOS or Android).
+    """
+    
+    
     if app == "myfitnesspal":
         if platform == "ios":
             return "https://apps.apple.com/us/app/calorie-counter-diet-tracker/id341232718"

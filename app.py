@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for
-from decision_tree import decision
+from decision import decision_tree
 from links import getlink
 
 app = Flask(__name__)

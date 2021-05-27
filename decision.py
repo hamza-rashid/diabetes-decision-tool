@@ -1,4 +1,10 @@
-def decision(category, network, goals, push, positive, gamification, science):
+def decision_tree(category, network, goals, push, positive, gamification, science):
+    """
+    This function takes an input of the 7 user preference answers and returns 
+    the app name as the output. 
+    
+    """
+    
     if int(category) == 1:
         if int(gamification) > 3:
             return "carbmanager"
